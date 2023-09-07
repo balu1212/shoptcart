@@ -1,0 +1,287 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cloneProject
+{
+    display: flex;
+    flex-direction: column;
+}
+.Navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #2874f0;
+}
+.nav-logo
+{
+    height: 70px;
+    width :100px;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('logo.jpg');
+    background-size: cover;
+    height: 70px;
+     width :100px;
+}
+.navseconddiv
+{
+    height: 60px;
+    width :150px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navseconddiv:hover{
+    border: 2px solid white;
+}
+.navseconddivloc
+{
+    display: flex;
+    margin: 5px;
+    padding-top: 10px;
+    justify-content: end;
+}
+.serachbar
+{
+    height: 40px;
+    width: 650px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+#productname
+{
+  height: 40px;
+  width: 600px;
+  border:2px solid white;
+}
+.searchbar2
+{
+    height: 35px;
+    width :35px;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    color: #2874f0;
+}
+.loginbutton
+{
+    height:25px;
+    width:165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height:35px;
+    width:130px;
+}
+.navfourhdiv
+{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+}
+.navfourhdiv:hover{
+    border:2px solid white;
+   
+}
+.navfivediv{
+    height: 40px;
+    width: 40px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav2bar
+{
+ height: 100px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.nav21
+{
+    height: 80px;
+    width :80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 25px 10px rgb(199, 197, 197);
+}
+.img1
+{ 
+    background-image: url("grocery.jpg");
+    background-size: cover;
+    height: 80px;
+    width :80px;
+}
+.img9
+{
+    background-image: url("Mobile.jpg");
+    background-size: cover;
+    height: 80px;
+    width :80px;
+}
+.img3
+{
+    background-image: url("fashoin.jpg");
+    background-size: cover;
+    height: 80px;
+    width :80px;
+}
+.img4
+{
+    background-image: url("Electronics.jpg");
+    background-size: cover;
+    height: 80px;
+    width :80px;
+}
+.img5
+{
+    background-image: url("furniture.jpg");
+    background-size: cover;
+    height: 80px;
+    width :80px;
+}
+.img6
+{
+    background-image: url("Appliance.jpg");
+    background-size: cover;
+    height: 80px;
+    width :80px;
+}
+.img10
+{
+    background-image: url("Travel.jpg");
+    background-size: cover;
+    height: 80px;
+    width :80px;
+}
+.img8
+{
+    background-image: url("Beauty\ &\ toys.jpg");
+    background-size: cover;
+    height: 80px;
+    width :80px;
+}
+.img2
+{
+    background-image: url("TwoWheelar.jpg");
+    background-size: cover;
+    height: 80px;
+    width :80px;
+}
+.herosection
+{
+    margin: 50px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+.heroslide
+{
+ background-image: url('Hero1.jpg');
+ background-size: cover;
+height: 250px;
+}
+.section1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.section2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 10px 10px 25px 10px rgb(199, 197, 197);
+    
+}
+
+.sectionsub2,.name
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+}
+.titlename
+{
+    font-size: 1.3rem;
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titlename:hover
+{
+    color: red;
+}
+.photo
+{
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 5px -5px 25px 15px rgb(199, 197, 197);
+}
+.photo:hover
+{
+    height: 220px;
+    width: 220px;
+}
+.footerclass
+{
+    font-family:'Times New Roman', Times, serif;
+    background-color:grey;
+    height: 240px;
+    padding: 40px;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+footer
+{
+    background-color:grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer1
+{
+    height: 240px;
+    width:250px;
+    margin: 20px;
+}
+ 
